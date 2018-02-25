@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorBackground">#323232</color>
+    <color name="colorBackgroundAlpha">#7e323232</color>
+    <color name="colorActionBar">#2b2b2b</color>
+    <color name="textColorDark">#000</color>
+    <color name="colorPrimary">#125688</color>
+    <color name="colorPrimaryDark">#125688</color>
+    <color name="textColorPrimary">#ffffff</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+    <color name="colorAccent">#c8e8ff</color>
+    <color name="textColorHint">#969696</color>
+    <color name="secondary_text_material_light">#ffffff</color>
+    <color name="secondary_text_material_dark">#eaffffff</color>
+    <color name="colorPagerTabStrip">#323232</color>
+
+    <color name="textColorPrimaryLight">#000</color>
+    <color name="colorBackgroundLight">#fff</color>
+    <color name="colorActionBarLight">#fff</color>
+    <color name="colorPagerTabStripLight">#fff</color>
+
+    <color name="textColorPrimaryBlue">#b4dbe1</color>
+    <color name="colorActionBarBlue">#14142A</color>
+    <color name="colorPagerTabStripBlue">#252467</color>
+    <color name="colorBackgroundBlue">#7775DD</color>
+</resources>

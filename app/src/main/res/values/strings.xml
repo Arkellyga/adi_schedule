@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">Array</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+    <string name="profile">Профиль</string>
+    <string name="objects">Предметы</string>
+    <string name="statistics">Статистика</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О приложении</string>
+    <string name="alarms">Оповещения</string>
+    <string name="lesson">Пара</string>
+    <string name="teacher">Преподаватель</string>
+    <string name="room">Аудитория</string>
+    <string name="week">Текущая неделя</string>
+    <string name="clear">Очистить</string>
+
+    <string name="editor">Редактирование пары</string>
+    <string name="edit_lessons">Редактировать пары</string>
+    <string name="editor_name">Название пары:</string>
+    <string name="editor_teacher">Имя преподавателя:</string>
+    <string name="editor_room">Аудитория:</string>
+    <string name="editor_time_from">Начало пары:</string>
+    <string name="editor_time_to">Конец пары:</string>
+    <string name="editor_up_week">Верхняя неделя</string>
+    <string name="editor_down_week">Нижняя неделя</string>
+    <string name="editor_window">Окно</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+
+    <string name="up_week">Верхняя неделя</string>
+    <string name="down_week">Нижняя неделя</string>
+
+    <string name="widget_name">Array Виджет</string>
+    <!-- Preferences -->
+    <string name="pref_notifies">Включить оповещения</string>
+    <string name="pref_summary_notifies">Оповещает о следующей паре за 15 минут до нее</string>
+    <string name="pref_anything">Я работаю над этим:)</string>
+    <string name="pref_impex">Импорт/экспорт пар</string>
+    <string name="pref_summary_impex">Сохранить или восстановить пары</string>
+    <!-- List Theme Preferences -->
+    <string name="pref_choose_theme">Тема</string>
+    <string name="pref_summary_choose_theme">Изменить тему</string>
+    <string-array name="theme_entries">
+        <item>Темная</item>
+        <item>Светлая</item>
+        <item>Синяя</item>
+    </string-array>
+    <string-array name="theme_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <!-- Impex -->
+    <string name="importing">Импорт</string>
+    <string name="exporting">Экспорт</string>
+    <string name="confirm_import_title">Вы уверены?</string>
+    <string name="confirm_import">Ваше текущее расписание будет полностью удалено и заменено на новое.Вы уверены?</string>
+    <string name="successful_import">Все пары успешно импортированы!</string>
+    <string name="successful_export">Все пары успешно экспортированы!</string>
+    <string name="save_file_error_export">Проблемы с доступом к внутренней памяти</string>
+    <!-- Fonts -->
+    <string name="font_sansation_bold">fonts/Sansation-Bold.ttf</string>
+    <string name="font_sansation_bold_italic">fonts/Sansation-BoldItalic.ttf</string>
+    <string name="font_sansation_italic">fonts/Sansation-Italic.ttf</string>
+    <string name="font_sansation_light">fonts/Sansation-Light.ttf</string>
+    <string name="font_sansation_light_italic">fonts/Sansation-LightItalic.ttf</string>
+    <string name="font_sansation_regular">fonts/Sansation-Regular.ttf</string>
+</resources>

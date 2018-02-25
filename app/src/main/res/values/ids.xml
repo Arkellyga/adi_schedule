@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="view_pager_main" type="id" />
+    <item name="pager_tab_strip_main" type="id" />
+    <item name="recycler_view_edit_button" type="id" />
+</resources>

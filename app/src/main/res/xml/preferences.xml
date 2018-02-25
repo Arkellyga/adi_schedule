@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:key="pref_notifies"
+        android:title="@string/pref_notifies"
+        android:summary="@string/pref_summary_notifies" />
+    <Preference
+        android:title="@string/pref_impex"
+        android:summary="@string/pref_summary_impex">
+        <intent
+            android:targetPackage="net.arkellyga.adischedule"
+            android:targetClass="net.arkellyga.adischedule.ImpexActivity" />
+    </Preference>
+    <ListPreference
+        android:entries="@array/theme_entries"
+        android:entryValues="@array/theme_entry_values"
+        android:key="pref_theme"
+        android:title="@string/pref_choose_theme"
+        android:summary="@string/pref_summary_choose_theme">
+    </ListPreference>
+</PreferenceScreen>

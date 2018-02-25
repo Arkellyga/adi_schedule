@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomPagerTabStrip">
+        <item name="android:background">@color/colorPagerTabStripBlue</item>
+    </style>
+    <style name="ArrayStyle" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/colorBackground</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:textColorSecondary">@color/secondary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+        <item name="android:textColorTertiary">@color/secondary_text_material_light</item>
+        <item name="toolbarStyle">@style/ArrayToolbar</item>
+        <item name="alertDialogTheme">@style/ArrayDialog</item>
+        <item name="android:dialogTheme">@style/ArrayDialog</item>
+        <item name="android:alertDialogStyle">@style/ArrayDialog</item>
+    </style>
+
+    <style name="ArrayDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@color/colorBackgroundBlue</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:background">@color/colorBackgroundBlue</item>
+        <item name="android:colorForeground">@color/colorBackgroundBlue</item>
+        <item name="android:fullDark"    >@color/colorBackgroundBlue</item>
+        <item name="android:topDark"     >@color/colorBackgroundBlue</item>
+        <item name="android:centerDark"  >@color/colorBackgroundBlue</item>
+        <item name="android:bottomDark"  >@color/colorBackgroundBlue</item>
+        <item name="android:fullBright"  >@color/colorBackgroundBlue</item>
+        <item name="android:topBright"   >@color/colorBackgroundBlue</item>
+        <item name="android:centerBright">@color/colorBackgroundBlue</item>
+        <item name="android:bottomBright">@color/colorBackgroundBlue</item>
+        <item name="android:bottomMedium">@color/colorBackgroundBlue</item>
+        <item name="android:centerMedium">@color/colorBackgroundBlue</item>
+    </style>
+    <style name="ArrayToolbar" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorActionBar</item>
+    </style>
+    
+    <style name="ArrayStyleLight" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/colorBackgroundLight</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryLight</item>
+        <item name="android:colorBackground">@color/colorBackgroundLight</item>
+        <item name="android:colorForeground">@color/foreground_material_light</item>
+        <item name="android:textColorSecondary">@color/secondary_text_material_light</item>
+        <item name="android:textColorSecondaryInverse">@color/secondary_text_material_dark</item>
+        <item name="android:textColorTertiary">@color/secondary_text_material_light</item>
+        <item name="toolbarStyle">@style/ArrayToolbarLight</item>
+    </style>
+
+    <style name="ArrayToolbarLight" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorActionBarLight</item>
+    </style>
+    
+    <style name="ArrayStyleBlue" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/colorBackgroundBlue</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryBlue</item>
+        <item name="android:colorBackground">@color/colorBackgroundBlue</item>
+        <item name="android:colorForeground">@color/textColorPrimaryBlue</item>
+        <item name="android:textColorSecondary">@color/textColorPrimaryBlue</item>
+        <item name="android:textColorTertiary">@color/textColorPrimaryBlue</item>
+        <item name="toolbarStyle">@style/ArrayToolbarBlue</item>
+    </style>
+
+    <style name="ArrayToolbarBlue" parent="Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/colorActionBarBlue</item>
+    </style>
+</resources>

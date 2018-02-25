@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_profile"
+        app:showAsAction="never"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/menu_objects"
+        app:showAsAction="never"
+        android:title="@string/objects" />
+
+    <item
+        android:id="@+id/menu_statistics"
+        app:showAsAction="never"
+        android:title="@string/statistics" />
+
+    <item
+        android:id="@+id/menu_settings"
+        app:showAsAction="never"
+        android:title="@string/settings" />
+
+    <item
+        android:id="@+id/menu_about"
+        app:showAsAction="never"
+        android:title="@string/about" />
+
+    <item
+        android:id="@+id/menu_edit_lessons"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/edit_lessons" />
+
+    <item
+        android:id="@+id/menu_alarms"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_alarms"
+        android:title="@string/alarms"/>
+
+</menu>
